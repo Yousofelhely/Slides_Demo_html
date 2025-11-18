@@ -1,0 +1,46 @@
+!DOCTYPE html
+html lang=en
+head
+  meta charset=UTF-8 
+  meta name=viewport content=width=device-width, initial-scale=1.0 
+  titleSlides Demo Selectortitle
+  style
+    body {
+      font-family Arial, sans-serif;
+      background #f5f7fa;
+      padding 40px;
+      text-align center;
+    }
+    h1 {
+      color #333;
+      margin-bottom 30px;
+    }
+    a.demo-link {
+      display block;
+      margin 15px auto;
+      padding 15px 25px;
+      width 220px;
+      background #2a6df4;
+      color white;
+      text-decoration none;
+      border-radius 8px;
+      font-size 18px;
+      transition 0.2s;
+    }
+    a.demo-linkhover {
+      background #184fcc;
+    }
+  style
+head
+body
+
+  h1Select Demoh1
+
+  !-- Demo 1 link (redirects to first HTML file under 2.0) --
+  a class=demo-link href=2.0index.htmlDemo 1a
+
+  !-- Demo 2 link (redirects to HTML file under 2.2) --
+  a class=demo-link href=2.2index.htmlDemo 2a
+
+body
+html
